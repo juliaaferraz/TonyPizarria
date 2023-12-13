@@ -1,0 +1,61 @@
+
+
+
+
+.fotoIcon{
+    margin-left: -15%;
+    padding: 2%;
+}
+.container{
+    height: 80%;
+}
+.infoUsuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infoUsuario>h2{
+    font-weight: 900;
+}
+.infoUsuario>p{
+   color: #AEA6A6;
+}
+.campo{    
+    border: 1px solid #f2780635;
+    border-radius: 8px;
+    padding: 2% 3% 2% 3% ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.info{
+    width: 100%;
+}
+.info>p{
+    margin: 4% 0px 4% 10%;
+}
+.info>.title{
+    color: #999999;
+}
+.info>.data{
+    color: #000000;
+    font-weight: bolder;
+}
+.backgroundCampo{
+    background-color: #F4E2D1;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 100%;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao{
+    background-color: #F93030;
+    text-transform: uppercase;
+}
+.botao>img{
+    height: 100%;
+    margin-right: 8%;
+}
